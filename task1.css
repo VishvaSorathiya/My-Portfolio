@@ -1,0 +1,330 @@
+* {
+    margin: 0rem 0rem 0rem 0rem;
+    font: arial;
+    box-sizing: border-box;
+    color: rgb(252, 252, 252);
+
+}
+       
+       body {
+            font-family: Arial, sans-serif;
+           background-color: #0b0303;
+
+           background-image: url('123.gif');
+          
+          
+          
+        }
+        .navbar {
+
+            top: 0;
+            left: 0;
+            background-color: #020000;
+            color: rgb(255, 251, 251);
+            text-align: left;
+            padding: 20px 10%;
+
+
+            display: inline-flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+            position: fixed;
+            cursor: default;
+            animation: slideRight 1s ease forwards;
+
+            background-image: url('123.gif');
+           background-size:contain;
+          
+        }
+
+        .navbar:hover
+        {
+            box-shadow : 0 0 50px rgb(55, 93, 199), 0 0 50px rgb(55, 93, 199), 0 0 50px rgb(55, 93, 199), 0 0 50px rgb(55, 93, 199);
+            animation: slideTop 1s ease forwards
+        
+        }
+        .head-icon a{
+            
+            font-size: 2rem;
+            background-color: transparent;
+            color: #358ce9;
+            text-decoration: none;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            width: 40px;
+            border: 2px solid #358ce9;
+            border-radius: 50%;
+            margin: 5px 2px 5px 5px;
+            animation: slideLeft 1.3s ease forwards;
+
+        }
+        .head-icon a:hover
+        {
+           background-color: #7c49d0;
+            color: #1779c4;
+            box-shadow: 0 0 20px #7c49d0;
+        
+        }
+        
+
+        nav {
+            background-color: #000000;
+            text-align: right;
+            padding: 20px 0;
+            
+            
+        }
+        nav a {
+             justify-content: space-between;
+              
+              display: inline-block;
+
+            text-decoration: none;
+            color: rgb(241, 237, 237);
+            font-size: xx-large;
+            font: bolder;
+            border: 2px solid #3382bf;
+            border-radius: 1cm;
+            margin: 5px 5px 5px 5px;
+            animation: slideLeft 1.3s ease forwards;
+        }       
+        nav a:hover {
+            background-color:#3382bf ;
+            color: #e1e2e3;
+            box-shadow: 50 50 50px rgb(39, 174, 211)0;
+        }
+
+        .homebar
+        {
+            align-items: center;
+            display: inline;
+        }
+       .home-img
+       {
+        
+        justify-content: center;
+        align-items: center;
+        background-image: url("avtar.jpg");
+        border-radius: 70%;
+        margin: 13rem 0rem 1.7rem 31rem;
+        background-size: cover;
+        border: 2px solid transparent;
+        height: 8rem;
+        width: 8rem;
+        
+       }
+
+        
+        .home-box
+        {
+            
+             align-items: center;
+             margin: 0rem 0rem 5rem 30rem;
+                height: 15rem;
+                width: 80vw;
+        }
+
+        
+       
+        .edu-heading 
+        {
+              
+              display: inline-block;
+            color: rgb(241, 237, 237);
+            font-size: xx-large;
+            font: bolder;
+            background-color: #0a1221;
+            align-items: center;
+            border: 2px solid #3382bf;
+            border-radius: 2cm;
+            margin: 12rem 0rem 0rem 30rem;
+        
+        }
+       
+        .education-box
+        {
+            display: flex;
+            align-items: center;
+            background-color: #222f3d;
+            box-shadow: 0 2px 5px aliceblue;
+            border: transparent;
+            margin: 1.5rem 10rem 0 10rem;
+            height: 9rem;
+            width: 80vw;
+        }
+
+        
+        #box1 {
+            animation: slideTop 1s ease forwards;
+        }
+        
+        #box2 {
+            animation: slideLeft 1s ease forwards;
+        }
+        
+        .education-box:hover {
+            box-shadow: 0 5px 10px cyan, 0 0 0 cyan, 0 0 10px cyan;
+        }
+        
+        .college-img {
+            margin: 0 2rem 0 3rem;
+            background-image: url("College.jpg");
+            height: 7.5rem;
+            width: 20rem;
+            background-size: cover;
+        }
+        
+        .highschool-img {
+            margin: 0 2rem 0 3rem;
+            background-image: url("school.jpg");
+            height: 7.5rem;
+            width: 20rem;
+        
+            background-size: cover;
+        }
+        
+       
+        
+        .degree1 h3 {
+            color: #358ce9;
+            font-size: 1.5rem;
+        
+        }
+        
+        .degree1 h4 {
+            font-size: 1.2rem;
+            color: darkgreen;
+            margin-top: 0.5rem;
+        
+        }
+        
+        .degree1 p {
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        
+        }
+        
+        
+        h1 {
+            color: white;
+        }
+        p {
+            line-height: 1.4;
+            color: white;
+        }
+
+       
+    #skills:hover 
+    {
+    transform: 2s;
+}
+.skill-heading {
+    
+    display: inline-block;
+    background-color: #0a1221;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3382bf;
+    border-radius: 1cm;
+    margin: 12rem 10rem 0 33rem;
+}
+
+.skills h2 {
+    font-size: 5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 10rem 10rem 0 0;
+    animation: slideRight 1s ease forwards;
+}
+
+.skills h2 i
+{
+    border: 2px solid #3382bf;
+    border-radius: 1cm;
+    margin: 5px 5px 5px 5px;
+}
+.skills h2 span {
+    font: larger;
+    font-size: 5rem;
+    color: #7c49d0;;
+
+    border: 2px solid #3382bf;
+    border-radius: 1cm;
+    margin: 5px 5px 5px 5px;
+
+}
+
+.skill-background {
+    height: 70vh;
+    width: 70vw;
+    background-color: transparent;
+    display: flex;
+    margin: 1.5rem 10rem 0 13rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.skill-box {
+    height: 8rem;
+    width: 20%;
+    background-color: rgb(7, 19, 32);
+    text-align: center;
+    margin: 2rem;
+    border: 50px;
+    animation: slideTop 1s ease forwards;
+    transition: 0.5s;
+}
+
+.box1 {
+    margin: 2rem 0 0rem 0;
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.skill-box:hover {
+    border: 2px solid white;
+    box-shadow: 0 0 50px #7c49d0, 0 0 30px #7c49d0, 0 0 25px #09121b;
+}
+
+.box1{
+    margin: 2rem 0 0.7rem 0;
+    font-size: 3.5rem;
+    color:rgb(146, 60, 225);
+}
+.box2 {
+    margin: 2rem 0 0.7rem 0;
+    font-size: 3.5rem;
+    color:rgb(146, 60, 225);
+}
+
+.box4 {
+    margin: 2rem 0 0.7rem 0;
+    font-size: 3.5rem;
+    color: rgb(146, 60, 225);
+}
+
+.box5 {
+    margin: 0rem 0 0.7rem 0;
+    font-size: 3.5rem;
+    color: rgb(146, 60, 225);
+}
+
+.box6{
+    margin: 0rem 0 0.7rem 0;
+    font-size: 3.5rem;
+    color: rgb(146, 60, 225);
+   
+}
+
+
+.skill-box h3 {
+    font-size: 1.5rem;
+}
